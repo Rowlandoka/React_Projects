@@ -41,7 +41,7 @@ export default function Accordian() {
 								className='title'
 							>
 								<h3>{dataItem.questions}</h3>
-								<span>+</span>
+								<span className='icon'>+</span>
 							</div>
 							{selected === dataItem.id ||
 							multiple.indexOf(dataItem.id) !== -1 ? (
